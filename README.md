@@ -7,7 +7,7 @@ Requires docker engine or Docker Destop
 2. cd Django-Docker
 3. docker build -t django .
 4. docker run --name django-1 -p 8000:8000  -d django
-5. 127.0.0.1:8000
+5. http://127.0.0.1:8000
 
 
 ---
