@@ -10,9 +10,11 @@ Requires docker engine or Docker Destop
 5. http://127.0.0.1:8000
 
 To test it, create a super user inside docker an login in admin:
+
 6. docker exec -it django python3 manage.py createsuperuser
 
 Follow the intructions: Username + Email + Password
+
 7. http://127.0.0.1:8000/admin
 
 ---
